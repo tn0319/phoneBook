@@ -10,7 +10,7 @@ const List = ({phoneList, searchWord}) => {
 
   return (
     <div>
-      <span>num:{phoneList.lenght}</span>
+      <span>num:{result.length}</span>
       <ul>
         {
           result.map((ele, idx) => {
